@@ -1,0 +1,11 @@
+inner outer func
+
+scope of variables
+----
+local
+static
+global
+
+
+
+
