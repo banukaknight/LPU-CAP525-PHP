@@ -1,5 +1,5 @@
 
-<a href="/LPU-CAP525"><h2>GO back to LPU FOLDER</h1></a>
+<a href="./"><h2>GO back to LPU FOLDER</h1></a>
 <form >
      <br>First nameee: <input type = "text" name = "first_name" />
      <br>Last name: <input type = "text" name = "last_name" placeholder="Last name here" />

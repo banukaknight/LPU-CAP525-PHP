@@ -1,4 +1,4 @@
-<a href="/LPU-CAP525"><h2>GO back to LPU FOLDER</h1></a>
+<a href="./"><h2>GO back to LPU FOLDER</h1></a>
 <form>
 Multiply by: <input type="text" name="mult" /><br />
 Range Start: <input type="text" name="strt" /><br />

@@ -1,4 +1,4 @@
-<a href="/LPU-CAP525"><h2>GO back to LPU FOLDER</h1></a>
+<a href="./"><h2>GO back to LPU FOLDER</h1></a>
 <h1>Welome to PHP 101. </h1>
 <h4> by Banuka Vidusanka. <i>Date: 2020.08.19</i></h2>
 

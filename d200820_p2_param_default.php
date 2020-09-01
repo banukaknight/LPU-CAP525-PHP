@@ -1,4 +1,4 @@
-<a href="/LPU-CAP525"><h2>GO back to LPU FOLDER</h1></a>
+<a href="./"><h2>GO back to LPU FOLDER</h1></a>
 <?php
 
 function box($h,$w=8,$l=10){

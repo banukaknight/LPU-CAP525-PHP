@@ -1,4 +1,4 @@
-<a href="/LPU-CAP525"><h2>GO back to LPU FOLDER</h1></a>
+<a href="./"><h2>GO back to LPU FOLDER</h1></a>
 	
 PHP provides three functions able to be used in function to retrieve parameters passed to it.<br><br>
 

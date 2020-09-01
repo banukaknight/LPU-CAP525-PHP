@@ -1,7 +1,7 @@
 <html>
     <head><title>Question D-1</title></head>
     <body>
-        <a href="/LPU-CAP525"><h2>GO back to LPU FOLDER</h1></a>
+        <a href="./"><h2>GO back to LPU FOLDER</h1></a>
 
         <form>
             Basic Salary : <input type="text" name="sal"  />

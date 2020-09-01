@@ -1,4 +1,4 @@
-<a href="/LPU-CAP525"><h2>GO back to LPU FOLDER</h1></a>
+<a href="./"><h2>GO back to LPU FOLDER</h1></a>
 
 <h1> Printing Strings</h1>
 
@@ -33,7 +33,7 @@ echo "<br>";
 var_dump($arr1);
 echo "<br>";
 var_dump($arr2);
-echo "<br>";
+echo "<br>....";
 echo "<hr>";
 print("<pre>".var_dump($arr2)."</pre>");
 echo "<br>";

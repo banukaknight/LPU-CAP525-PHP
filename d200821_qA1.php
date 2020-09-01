@@ -6,7 +6,7 @@ $qnum = "Question A1";
 <html>
 <head><title>PHP Questions</title></head>
 <body>
-<a href="/LPU-CAP525"><h2>GO back to LPU FOLDER</h1></a>
+<a href="./"><h2>GO back to LPU FOLDER</h1></a>
 <h1><?= htmlentities($qnum); ?> </h1>
 <p>Write a PHP program to read any two values from the text boxes at runtime and
 to find addition and subtraction. Print the result in text boxes.</p>

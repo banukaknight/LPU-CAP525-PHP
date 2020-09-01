@@ -1,4 +1,4 @@
-<a href="/LPU-CAP525"><h2>GO back to LPU FOLDER</h1></a>
+<a href="./"><h2>GO back to LPU FOLDER</h1></a>
 <xmp>Write a PHP program to print all EVEN numbers from 100 to 20.</xmp>
 
 
