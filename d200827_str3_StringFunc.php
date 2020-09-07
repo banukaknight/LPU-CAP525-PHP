@@ -110,3 +110,9 @@ preg_match() - Perform a regular expression match
 <li>$array = explode(separator, string [, limit])
 	</li>$string = implode(separator, array);
 </li></li>
+
+
+<span>
+str_replace("world","Peter","Hello world!");
+replace world with peter in strihg ^^
+</span>

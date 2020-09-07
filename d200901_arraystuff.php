@@ -48,11 +48,23 @@ foreach ($students as $st_name => $stinfo){
 
 }
 
+?>
 
 
+<?
+$marks = array("Maths" => 78, "Physics" => 24, "Art" => 50);
+//question: write a program to get sum of 3 subjects and average.
+//also sort array by highest mark to lowest mark order & print 3 subject names
+$sum = 0;
+$avg = 0;
+foreach ($marks as $key => $value) {
+	$sum += $value;
+}
+$avg = $sum /3;
 
-
+echo "<hr> Sum is: $sum And average: $avg";
 
 ?>
+
 </pre>
 
