@@ -25,11 +25,6 @@ var_dump($arr_1 === $arr_3);
 echo '<br>$arr_1 === $arr_4 is ------ ';
 var_dump($arr_1 === $arr_4);
 
-//-------------
-//array_flip
-//unset()
-//...
-
 ?>
 
 <h3>array_search() function</h3>

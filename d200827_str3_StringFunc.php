@@ -94,13 +94,13 @@ similar_text() - Calculate the similarity between two strings
 		<li>strcspn(string,char,start,length), returns the number of characters present in a string before any part of the specified characters to be searched are found. This function is case-sensitive..
 </li></li>
 
-<span>
+<pre>
 stristr() - Case-insensitive strstr
 strrchr() - Find the last occurrence of a character in a string
 strpos() - Find the position of the first occurrence of a substring in a string
 strpbrk() - Search a string for any of a set of characters
 preg_match() - Perform a regular expression match
-</span>
+</pre>
 
 
 <h3>explode() func [do split] in to array</h3>
@@ -112,7 +112,7 @@ preg_match() - Perform a regular expression match
 </li></li>
 
 
-<span>
+<pre>
 str_replace("world","Peter","Hello world!");
 replace world with peter in strihg ^^
-</span>
+</pre>

@@ -2,7 +2,6 @@
 
 
 <?
-
 function f1($xyz){
 	return ($xyz*$xyz);
 }

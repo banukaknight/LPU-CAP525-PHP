@@ -19,9 +19,9 @@ printf($n . "\n"."hi");
 printf("hello" . "%s", "\n");
 printf("hello" . "%s", "\n");
 
-$ab = "<br>Hello\t yoo<br> WOrld";
+$ab = "<br>Hello\t\t yoo<br> WOrld";
 
-echo "<span>".$ab."</span>";
+echo "<pre>".$ab."</pre>";
 ?>
 <hr><hr>
 <?php
@@ -39,7 +39,7 @@ class foo
 
     function __construct()
     {
-        $this->foo = 'Foo';
+        $this->foo = 'funcFoo';
         $this->bar = array('Bar1', 'Bar2', 'Bar3');
     }
 }
