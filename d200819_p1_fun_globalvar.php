@@ -16,7 +16,19 @@ function add1() {
 	 $x += 1;
 	 echo $x,": is x inside func<br>";
 }
-
 add1();
-echo $x,": is x outside func<br>";
+echo $x,": is x outside func<br><br>";
+
+
+// $y = 5;
+// function add2(){
+// 	$y += 2;  //undefined variable. cannot access
+// 	echo $y, ": is y inside func<br>";
+// }
+// add2();
+// echo $y,": is y outside func<br><br>";
+
+
+
 ?>
+<marquee><a href="https://github.com/banukaknight/banukaknight.github.io">https://github.com/banukaknight/banukaknight.github.io</a></marquee>

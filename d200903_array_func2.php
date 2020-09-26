@@ -104,3 +104,5 @@ $asso_arr = array("A"=>"B", "F"=>"X", "B"=>"X", "C"=>"E");
 
 
 </table>
+
+<marquee><a href="https://github.com/banukaknight/banukaknight.github.io">https://github.com/banukaknight/banukaknight.github.io</a></marquee>

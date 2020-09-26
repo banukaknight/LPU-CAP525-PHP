@@ -116,3 +116,4 @@ preg_match() - Perform a regular expression match
 str_replace("world","Peter","Hello world!");
 replace world with peter in strihg ^^
 </pre>
+<marquee><a href="https://github.com/banukaknight/banukaknight.github.io">https://github.com/banukaknight/banukaknight.github.io</a></marquee>

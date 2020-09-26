@@ -26,7 +26,7 @@ echo var_dump($greet);
 echo "<u><br><br>Annonymous function return string:</u><br><br>";
 $greet = function($name)
 {
-    return "Hello : $name <br>";
+    return "Hi : $name <br>";
 };
 echo $greet('James Bond');
 echo $greet('Dwayne Johnson');
@@ -34,3 +34,4 @@ echo $greet('Dwayne Johnson');
 ##return type here is string
 echo gettype($greet('James Bond')) ."<br>";
 ?>
+<marquee><a href="https://github.com/banukaknight/banukaknight.github.io">https://github.com/banukaknight/banukaknight.github.io</a></marquee>

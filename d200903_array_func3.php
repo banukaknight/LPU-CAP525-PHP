@@ -1,3 +1,4 @@
+<a href="./"><h2>GO back to LPU FOLDER</h1></a>
 <h3>explode() func [do split] in to array - string func return array</h3>
 <? $var1 = "hello pretty, world dear"; 
 
@@ -51,3 +52,4 @@ echo substr($str, 0);     // Outputs: Hello World!
 echo substr($str, -6, 5); // Outputs: World
 echo substr($str, -6);    // Outputs: World!
 echo substr($str, -12);  
+<marquee><a href="https://github.com/banukaknight/banukaknight.github.io">https://github.com/banukaknight/banukaknight.github.io</a></marquee>

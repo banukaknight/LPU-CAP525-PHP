@@ -1,6 +1,6 @@
-<a href="./"><h2>GO back to LPU FOLDER</h1></a>
+<a href="./"><h2>GO back to LPU FOLDER</h2></a>
 <h1>Welome to PHP 101. </h1>
-<h4> by Banuka Vidusanka. <i>Date: 2020.08.12</i></h2>
+<h4> by Banuka Vidusanka. <i>Date: 2020.08.12</i></h4>
 
 <h4>Welcome to Quizz</h4>
 
@@ -28,8 +28,4 @@ Option B,C,D are correct
 </xmp>
 <hr>
 
-
-
-
- 
-
+<marquee><a href="https://github.com/banukaknight/banukaknight.github.io">https://github.com/banukaknight/banukaknight.github.io</a></marquee>

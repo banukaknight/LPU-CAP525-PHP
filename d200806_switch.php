@@ -1,6 +1,6 @@
 <a href="./"><h2>GO back to LPU FOLDER</h1></a>
 <h1>Welome to PHP 101. </h1>
-<h4> by Banuka Vidusanka. <i>Date: 2020.08.06</i></h2>
+<h4> by Banuka Vidusanka. <i>Date: 2020.08.06</i></h4>
 <?php
 
 $uid = "F2444367";
@@ -55,3 +55,4 @@ switch($idlen)
 
 
 ?>
+<marquee><a href="https://github.com/banukaknight/banukaknight.github.io">https://github.com/banukaknight/banukaknight.github.io</a></marquee>

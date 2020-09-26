@@ -61,3 +61,4 @@ echo '<br><br>So PHP can\'t print multiline string or newline char. have to use 
 
 echo nl2br($str1);
 ?>
+<marquee><a href="https://github.com/banukaknight/banukaknight.github.io">https://github.com/banukaknight/banukaknight.github.io</a></marquee>

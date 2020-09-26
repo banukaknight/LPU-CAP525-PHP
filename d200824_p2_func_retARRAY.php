@@ -33,3 +33,4 @@ echo "<hr>";
 list ($one, $two) = f2("Hello","World");
 echo "$one, $two "
 ?>
+<marquee><a href="https://github.com/banukaknight/banukaknight.github.io">https://github.com/banukaknight/banukaknight.github.io</a></marquee>

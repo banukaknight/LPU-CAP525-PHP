@@ -1,3 +1,4 @@
+<a href="./"><h2>GO back to LPU FOLDER</h1></a>
 <?php
 
 $list1 = ["el1","el2","el3","el4","el5"];
@@ -91,10 +92,11 @@ echo "<br>";
 $firstname = "Peter";
 $lastname = "Griffin";
 $age = "41";
-$name = array("firstname", "lastname");
-$result = compact($name, "location", "age");
+$name = array("firstname", "lastname"); //names of vari in array
+$result = compact($name, "location", "age"); //pass array of val-names
 print_r($result);
 
 
 
 ?>
+<marquee><a href="https://github.com/banukaknight/banukaknight.github.io">https://github.com/banukaknight/banukaknight.github.io</a></marquee>

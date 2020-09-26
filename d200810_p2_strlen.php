@@ -48,3 +48,4 @@ if ( strlen((string)$uid) == $len8 ){
 
  ?>
 </h2>
+<marquee><a href="https://github.com/banukaknight/banukaknight.github.io">https://github.com/banukaknight/banukaknight.github.io</a></marquee>

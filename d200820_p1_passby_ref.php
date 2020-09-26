@@ -25,3 +25,4 @@ echo "<h2> Outside func before call: ".$b;
 doubler2($b);
 echo "<h2> Outside func after call by val: ".$b;
 ?>
+<marquee><a href="https://github.com/banukaknight/banukaknight.github.io">https://github.com/banukaknight/banukaknight.github.io</a></marquee>

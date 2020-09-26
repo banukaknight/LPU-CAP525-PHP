@@ -31,3 +31,4 @@ echo "<br>strncasecmp(st1,st2,length)";
 //explode
 
 ?>
+<marquee><a href="https://github.com/banukaknight/banukaknight.github.io">https://github.com/banukaknight/banukaknight.github.io</a></marquee>
