@@ -47,7 +47,7 @@ class Flower {
 
   #A destructor is called when the object is destructed or the script is stopped or exited.
   function __destruct() {
-    echo "The flower is {$this->name} and the color is {$this->color}.";
+    echo "<br>Destroy flower {$this->name} with color {$this->color}.";
   }
 
 }

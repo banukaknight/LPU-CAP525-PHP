@@ -2,6 +2,8 @@
 
 <p>PHP 5 introduces the final keyword, which prevents child classes from overriding a method by prefixing the definition with final. If the class itself is being defined final then it cannot be extended.</p>
 
+<p>we can use final on methods & class aswell, then they can not be inherited.</p>
+
 
 <?php 
 // PHP program to implement  
