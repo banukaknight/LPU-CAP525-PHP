@@ -52,4 +52,20 @@ $p->setsalary(); #call parent's func
 // Print child 
 $c->geeks(); #call overidden func from child
 $c->setsalary(); # call func from parent
+
+//final class - cannot be extended (derived from)
+final class X { 
+	function yolo() { 
+        echo "<h3>Parent</h3>"; 
+    } 
+}
+
+//FATAL ERRO: Class Y may not inherit from final class
+/*
+class Y extends X {
+	function yolo() { 
+        echo "<h3>Child</h3>"; 
+    } 
+}
+*/
 ?> 
