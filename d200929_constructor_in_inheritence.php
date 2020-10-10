@@ -34,6 +34,6 @@ $mam1 = new Mammel("Elephant","Black","Leaves");
 
 
 echo "<h3>";
-echo $mam1 -> get_mammel();;
+echo $mam1 -> get_mammel();
 
 ?>
