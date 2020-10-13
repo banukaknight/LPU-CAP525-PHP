@@ -1,4 +1,4 @@
-<a href="./"><h2>GO back to LPU FOLDER</h1></a>
+<a href="./"><h6>GO back to LPU FOLDER</h6></a>
 <h2>Interface - multiple inheritance</h2>
 
 <p>Multiple Inheritance is the property of the Object Oriented Programming languages in which child class or sub class can inherit the properties of the multiple parent classes or super classes.

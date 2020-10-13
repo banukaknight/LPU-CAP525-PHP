@@ -60,6 +60,7 @@ final class X {
     } 
 }
 
+//cannot do this. cannot extend a final class
 //FATAL ERRO: Class Y may not inherit from final class
 /*
 class Y extends X {

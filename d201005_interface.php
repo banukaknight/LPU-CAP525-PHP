@@ -5,7 +5,7 @@
 <br>Interfaces make it easy to use a variety of different classes in the same way. When one or more classes use the same interface, it is referred to as "polymorphism".</p>
 
 <p>Interfaces cannot hold variables. only function declarations.</p>
-
+<p>Interface only declare functions. leave the definition part to class that implement the interface</p>
 <p>An Interface allows the users to create programs, specifying the public methods that a class must implement, without involving the complexities and details of how the particular methods are implemented. It is generally referred to as the next level of abstraction. It resembles the abstract methods, resembling the abstract classes. An Interface is defined just like a class is defined but with the class keyword replaced by the interface keyword and just the function prototypes. The interface contains no data variables. The interface is helpful in a way that it ensures to maintain a sort of metadata for all the methods a programmer wishes to work on.</p>
 
 <p>Concrete Class: The class which implements an interface is called the Concrete Class. It must implement all the methods defined in an interface. Interfaces of the same name can’t be implemented because of ambiguity error. Just like any class, an interface can be extended using the extends operator as follows</p>
