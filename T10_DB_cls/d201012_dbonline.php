@@ -9,10 +9,10 @@
 
 
 <?php
-$servername = "localhost";
-$username = "username";
-$password = "password";
-$dbname = "myDB";
+$servername = "sql12.freesqldatabase.com";
+$username = "sql12370840";
+$password = "lbhifYlq6f";
+$dbname = "sql12370840";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -24,15 +24,28 @@ echo "<h5>Connected successfully </h5>";
 
 ?>
 
-<form method="POST">
-	<span class="label1">C_Number</span> <input type="number" name="C_Number"><br>
-	<span class="label1">C_Desc </span> <input type="text" name="C_Desc"><br>
-	<span class="label1">C_Solution </span> <input type="text" name="C_Solution"><br>
-	<span class="label1">C_Status </span> <input type="text" name="C_Status"><br>
-	<input type="submit" name="submitData" value="Insert to DB"><br>
-</form>
-
 <?
+
+// sql to create table
+/*
+$sql = "CREATE TABLE table1 (
+id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+C_Number INT(6) NOT NULL,
+C_Desc VARCHAR(30) NOT NULL,
+C_Solution VARCHAR(30),
+C_Status VARCHAR(30),
+rec_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+)";
+
+if ($conn->query($sql) === TRUE) {
+  echo "Table table1 created successfully";
+} else {
+  echo "Error creating table: " . $conn->error;
+}
+*/
+
+
+
 if( isset($_POST['submitData'])){
 	$C_Number = $_POST['C_Number'];
 	$C_Desc = $_POST['C_Desc'];
@@ -60,3 +73,13 @@ $_POST = array();
 
 $conn->close(); //close connection
 ?>
+
+<form method="POST">
+	<span class="label1">C_Number</span> <input type="number" name="C_Number"><br>
+	<span class="label1">C_Desc </span> <input type="text" name="C_Desc"><br>
+	<span class="label1">C_Solution </span> <input type="text" name="C_Solution"><br>
+	<span class="label1">C_Status </span> <input type="text" name="C_Status"><br>
+	<input type="submit" name="submitData" value="Insert to DB"><br>
+</form>
+
+
