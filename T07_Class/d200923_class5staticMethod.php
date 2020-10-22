@@ -82,7 +82,17 @@ Scope Resolution Operator </b>, and the property name
 
 <?php
 class pi1 {
-  public static $value = 3.14159;
+  public static $value = 3.14159; //remain same for all objects
+  public $name = "Banu"; //every object will have own copy
+  
+  function setpi1($n)
+  {
+	  $this->name = $n;
+	  }
+	function getpi1()
+	  {echo "...".$this->name;
+	  echo self::$value; //access static val within
+	  }
 }
 
 // Get static property. no need to create object of class

@@ -5,6 +5,18 @@
 $arr1 = explode(" ", $var1);
 print_r ($arr1);
 ?>
+<h3>array_map() function sends each value of an array to a user-made function, and returns an array with new values, given by the user-made function.</h3>
+
+<?
+function myfunction($v)
+{
+  return($v*$v);
+}
+
+$a=array(1,2,3,4,5);
+print_r(array_map("myfunction",$a));
+?>
+
 
 <h3>implode()  fucntion join together an array to a string </h3>
 <? $arr2 = ["one_", "twp---", "threee"];

@@ -14,5 +14,20 @@ echo ("$i <br>");
 }
 
 
+for ($i = 0; $i < 10; $i++){
+	if ($i == 7){
+		goto finish1;
+	}
+	echo "<h5> $i </h5>";
+}
+
+finish1:
+echo "<h4>Jumped to finish after 7</h4>";
+
+
+//exit;
+//die("program ended");
+
+
 ?>
 <marquee><a href="https://github.com/banukaknight/banukaknight.github.io">https://github.com/banukaknight/banukaknight.github.io</a></marquee>

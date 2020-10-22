@@ -66,18 +66,12 @@ echo '<a class="btn" href="./6_droptable.php">Drop Table</a><br><br>';
 
 ?>
 
-<table  class='tbclass2'>
-<tr><td>
-<form method="POST" action="5_deleterecord.php">
+
+<form method="POST" class="formclass">
 	<span class="label1">Product ID: </span> <input type="number" name="p_id" required><br><br>
-	<input type="submit" name="deleterecord" value="Delete Record">
+
+  <button class="btn" type="submit" formaction="./5_deleterecord.php" name="deleterecord">Delete Record</button>
+  <button class="btn" type="submit" formaction="./4_updaterecord.php" name="updaterecord">Update Record </button>
+
 
 </form>
-</td><td>
-<form method="POST" action="4_updaterecord.php">
-	<span class="label1">Product ID: </span> <input type="number" name="p_id" required><br><br>
-	<input type="submit" name="updaterecord" value="Update Record">
-
-</form>
-</td>
-</tr></table>
