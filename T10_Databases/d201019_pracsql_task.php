@@ -40,7 +40,7 @@ if ($conn->query($sql) === TRUE) {
   echo "<h5>Table creating Error: " . $conn->error . "</h5>";
 }
 
-/*
+
 //insert some static data----------
 $sql = "INSERT INTO Product (p_name, p_brand, p_value)
 VALUES ('S7', 'Samsung', 2000)";
@@ -57,7 +57,7 @@ if ($conn->query($sql) === TRUE) {
 } else {
   echo "Error: " . $sql . "<br>" . $conn->error;
 }
-*/
+
 
 //small code to check if table exisist--------------
 if ($conn->query ("DESCRIBE Product"  )) {
@@ -68,7 +68,7 @@ if ($conn->query ("DESCRIBE Product"  )) {
 
 
 //display data. as a table
-$sql = "SELECT * FROM xProduct";
+$sql = "SELECT * FROM Product";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
