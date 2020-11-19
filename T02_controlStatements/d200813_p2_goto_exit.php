@@ -17,6 +17,9 @@ echo ("$i <br>");
 for ($i = 0; $i < 10; $i++){
 	if ($i == 7){
 		goto finish1;
+		//continue;
+		//break;
+		//die("program ended");
 	}
 	echo "<h5> $i </h5>";
 }
